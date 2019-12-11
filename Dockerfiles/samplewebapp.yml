@@ -37,7 +37,7 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: sample1
+      - image: acr/sample1
         name: webapp
         imagePullPolicy: Always
         ports:
