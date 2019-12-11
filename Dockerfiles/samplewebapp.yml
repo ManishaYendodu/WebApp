@@ -37,11 +37,11 @@ spec:
         app: webapp
     spec:
       containers:
-      - image: 40.70.87.16:8123/sampleappimage-9
+      - image: acr/sample1
         name: webapp
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 8888
         resources: {}
       restartPolicy: Always
 status: {}
