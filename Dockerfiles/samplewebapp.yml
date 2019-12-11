@@ -14,6 +14,12 @@ spec:
     targetPort: 8080
   selector:
     app: webapp
+  ports:
+  - name: http
+    port: 80
+    targetPort: http
+  - name: https
+    port: 443
 status:
   loadBalancer: {}
 ---
