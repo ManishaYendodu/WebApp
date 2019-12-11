@@ -41,7 +41,7 @@ spec:
         name: webapp
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 80
         resources: {}
       restartPolicy: Always
 status: {}
