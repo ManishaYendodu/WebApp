@@ -52,11 +52,3 @@ spec:
       restartPolicy: Always
 status: {}
 ---
-apiVersion: apps/v1
-kind: Ingress
-metadata:
-  name: webapp
-spec:
-  backend:
-    serviceName: webapp
-    servicePort: 90
